@@ -1,0 +1,12 @@
+@use "./style/_reset";
+@use "./style/variables.scss" as var;
+
+body {
+  // フォントデフォルト設定
+  color: var.$font-color-black;
+  font-family: "mr-eaves-modern", "dnp-shuei-gothic-gin-std", sans-serif;
+}
+
+a {
+  color: var.$font-color-black;
+}
