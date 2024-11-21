@@ -16,32 +16,34 @@ const Philosophy: React.FC = () => {
           <FadeInContainer>
             <div className={style.Philosophy__texts}>
               <p className={style.Philosophy__text}>
-                私たち人間は五感があり、
-                <br /> 五感を持って世界を知覚しています。
+                コーヒーの楽しさは、
                 <br />
-                モノを見て、触れ、叩いて音をだしたり、
+                美味しく飲むことだけではありません。
                 <br />
-                または、口に入れたり、
+                心を落ち着ける時間を過ごしても、
                 <br />
-                五感を通して対象物を認識しているとき、
-                <br /> 美しい、気持ちがいい、
+                ただ何も考えないひとときを楽しんでも、
                 <br />
-                おいしいといった感動も同時に持ち得ます。
+                それらを全て肯定してくれる。
+                <br />
+                コーヒーのいろいろな面白さを
+                <br />
+                お楽しみいただければ、嬉しいです。
               </p>
               <p className={style.Philosophy__textEnglish}>
-                We humans have five senses, and we perceive
+                The joy of coffee isn’t just about
                 <br />
-                the world through them. By seeing, touching,
+                savoring its delicious taste.
                 <br />
-                producing sounds by striking objects, or tasting,
+                welcomes a pause for reflection,
                 <br />
-                we recognize objects through these senses.
+                It embraces moments of calm,
                 <br />
-                Simultaneously, we can experience emotions such
+                and even allows you to enjoy doing absolutely nothing.
                 <br />
-                as finding something beautiful, feeling pleasant,
+                We hope you’ll discover and delight
                 <br />
-                or enjoying deliciousness.
+                in the many fascinating aspects of coffee.
               </p>
             </div>
             <div className={style.Philosophy__buttonWrapper}>
