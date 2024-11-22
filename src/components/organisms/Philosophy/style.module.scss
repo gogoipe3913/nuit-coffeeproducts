@@ -73,6 +73,10 @@
     margin-top: 32px;
     display: flex;
     justify-content: flex-end;
+
+    @include mixin.respondToSm {
+      margin-top: 48px;
+    }
   }
 
   .Philosophy__button {
