@@ -13,7 +13,7 @@
 
   // スマホ以下
   @include mixin.respondToSm {
-    padding: 28% 36px;
+    padding: 28% 0;
   }
 
   .Philosophy__contents {
@@ -36,6 +36,11 @@
     padding-left: 92px;
     display: flex;
     color: var.$font-color-blue;
+
+    @include mixin.respondToSm {
+      padding-left: 0;
+      flex-direction: column;
+    }
   }
 
   .Philosophy__text {
@@ -58,6 +63,8 @@
     letter-spacing: 0.08em;
 
     @include mixin.respondToSm {
+      margin-left: initial;
+      margin-top: 20px;
       font-size: 10px;
     }
   }

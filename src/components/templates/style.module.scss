@@ -6,6 +6,10 @@
   padding: 0 60px;
   display: flex;
 
+  @include mixin.respondToSm {
+    padding: 0 40px;
+  }
+
   .Templates__noise {
     position: fixed;
     top: 0;
