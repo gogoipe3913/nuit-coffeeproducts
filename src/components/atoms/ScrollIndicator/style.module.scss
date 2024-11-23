@@ -46,6 +46,10 @@
     left: 0;
     width: 120px;
     opacity: 1;
+
+    @include mixin.respondToSm {
+      width: 60px;
+    }
   }
 
   70% {
@@ -56,5 +60,9 @@
     left: 120px;
     width: 0;
     opacity: 0;
+
+    @include mixin.respondToSm {
+      left: 60px;
+    }
   }
 }
