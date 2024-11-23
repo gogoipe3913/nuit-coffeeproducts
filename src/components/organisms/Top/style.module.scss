@@ -16,6 +16,7 @@
     transform: translateY(-50%);
 
     @include mixin.respondToSm {
+      top: 45%;
       margin-left: 0;
     }
   }
