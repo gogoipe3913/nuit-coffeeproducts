@@ -16,7 +16,7 @@
     transform: translateY(-50%);
 
     @include mixin.respondToSm {
-      top: 45%;
+      top: 50%;
       margin-left: 0;
     }
   }
@@ -34,7 +34,7 @@
     color: var.$font-color-blue;
 
     @include mixin.respondToSm {
-      margin-top: 48px;
+      margin-top: 32px;
     }
   }
 
